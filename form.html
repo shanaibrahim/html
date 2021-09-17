@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>WORKSHOP REGISTRATION</legend>
+            <label>FirstName:</label>
+            <input type="text" name="firstname"/> <br><br>
+            <label>LastName:</label>
+            <input type="text" name="lastname"/> <br><br>
+            <label>Address:</label>
+            <textarea rows="2" cols="20"></textarea> <br><br>
+            <label>City:</label>
+            <input type="text" name="city"/> <br><br>
+            <label>State:</label>
+            <select>
+                <option>Kasaragod</option>
+                <option>Kannur</option>
+                <option>Kozhikode</option>
+            </select> <br><br>
+            <label>Country:</label>
+            <select>
+                <option>India</option>
+                <option>China</option>
+                <option>Australia</option>
+            </select> <br><br>
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            <label>Email:</label>
+            <input type="email" name="email"/> <br><br>
+            <label>Password:</label>
+            <input type="password" name="password"/> <br><br>
+            <label>Payment Mode:</label>
+            <input type="checkbox" id="payment" name="payment">Cash 
+            <input type="checkbox" id="payment" name="payment">Cheque 
+            <input type="checkbox" id="payment" name="payment">Draft<br><br>
+            <input type="submit" value="submit"> 
+        </fieldset>
+    </form>
+</body>
+</html>
